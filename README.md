@@ -27,6 +27,6 @@ User Guide:
   * Provided in a separate document.
 
   Demo
-   * I have used this gallery for several years (with some evolution over time) for displaying my own photograph. You can see the functionality of the gallery at                        https://gallery.staadecker.com 
+   * I have used this gallery for several years (with some evolution over time) for displaying my own photos. You can see the functionality of the gallery at                        https://gallery.staadecker.com 
     
  Usual disclaimers: All electrons consumed by my computer in creating this program were humanely caught. No leghold traps were used. This program works for me, I make no guarantees of any kind whether it will work for you or satisfy your purposes. If you use it, your comments and suggestions are welcome. You can reach me through my Twitter account or through the comment section of the gallery, https://gallery.staadecker.com/contact_us.php
