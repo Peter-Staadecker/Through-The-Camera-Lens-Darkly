@@ -1,15 +1,15 @@
 The files and sub-folders used are principally the ones below. They should all be in the same parent directory "gallery" or whatever.
 
 IMAGES/LARGE
-This folder contains the images you wish to display. Typically they will be sized according to the largest screen size you wish to cater for. Maybe up to 1920 x 1080 pixels.
+This folder contains the images you wish to display. They should be in .jpg format. Typically they will be sized according to the largest screen size you wish to cater for. Maybe up to 1920 x 1080 pixels. They can be smaller.
 
 IMAGES/SMALL
 This folder contains thumbnails of the images you wish to display. I suggest a standard width of 180 pixels and a variable height proportionate to your image height.
 
 INDEX.HTML
-This file serves as the basic display template. It shows one large image at a time, along with a row of several thumbnail images. If the user selects another image, either via clicking on the current image (right or left) or using the controls or selecting a new image from the thumbnail row, the new image replaces the old but the HTML template remains unchanged. Only the image and info about the image change.
+This file serves as the basic display template. It shows one large image at a time, along with a row of several thumbnail images below. If the user selects another image, either via clicking on the current image (right or left) or using the controls (first image, last image, next image, previous image) or selecting a new image by clicking on one of the thumbnails, then the new image replaces the old but the HTML template remains unchanged. Only the image and info about the image change.
 
-When you first set up your gallery, and as you add/delete/change images and image info, you need to update a few lines within the HTML file. They are clearly marked with comments like this
+When you first set up your gallery, and later as you add/delete/change images and image info, you need to update a few lines within the HTML file. The lines are clearly marked with comments like this
 
 //update this when adding, deleting or changing images:
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
@@ -31,9 +31,25 @@ etc.
 
 Make sure you change all as marked.
 
+In the example
+
+var img0 = {name:"Young Eurasian Eagle Owl", place_date: "Port Dover, Ontario.", cright:"2016",
+	src:"images/large/owl.jpg"};
+
+Three information fields are used. The name field contains the image title to be displayed; the place_data contains the place and date where/when the image was taken; the copyright field contains the year of the copyright; and the source contains the source name of the image as stored in the images/large/ folder. You can optionally add up to 3 more availabe fields. The fields are 
+* 'size' which can contain and display information about maximum print size. The info is for display only, so you can use whatever units and format you wish.
+* 'link' which can specify a url link for additional information
+* 'misc' for anything else.
+
+Using these fields would result in something like this:
+var img0 = {name:"Young Eurasian Eagle Owl", place_date: "Port Dover, Ontario.", cright:"2016", size:"[60 x 24 inches, 120 x 60 cm]", 
+	misc:"2020 gold award at XYZ photo competition", link:"[https:myancientowlblog.com]",
+	src:"images/large/owl.jpg"};
+
+
 INDEX.STYLE.CSS
-This file applies formatting to the HTML page and should not require any changes unless you wish to play with styles.
+This file applies formatting to the HTML page and should not require any changea.
 
 INDEX.JAVASCRIPT.JS
-This file reacts to users selecting a new 
+This file reacts to users selecting a new image via a mouse click or swipe. You should not need to change it.
 
