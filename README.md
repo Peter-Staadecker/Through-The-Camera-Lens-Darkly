@@ -1,7 +1,7 @@
 # Through-The-Camera-Lens-Darkly
 A Javascript Photo Gallery
 
-This Javascript photo gallery can disply your photos to viewers world-wide on the web. You will need your own photos and web hosting (not supplied). The code underlying the gallery includes HTML, Javascript and CSS.
+This Javascript photo gallery can disply your photos to viewers world-wide on the web. You will need your own photos (am I being obvious?) and your own web hosting arrangements (not supplied). The code underlying the gallery includes HTML, Javascript, CSS and two teaspoons of .php.
 
 The pros and cons of this photo gallery include the following:
 
@@ -17,7 +17,7 @@ Pros:
   * You can easily see the functionality on display at my own photo gallery, https://gallery.staadecker.com
 
 Cons:
-  * No slick upload interface for adding images to the web host - you need to provide your own FTP or similar upload mechansim to upload photos from your PC (or whatever device)         to your web host,  and to understand the file structures on your web host.
+  * No slick upload interface for adding images to the web host - you need to provide your own FTP or similar upload mechansimfrom your PC (or whatever device) to your web host,         and to understand the file structures on your web host.
   * When you upload new images to your web host, you need to do so in both larger version for display, and in thumbnail version for quick user overview, and make manual code             additions to both an HTML file and to the Javascript file. 
   * When you set a password to guard access to user comments you will be manually changing a .php file on your webhost.
   * The gallery relies on mix of technologies including HTML, CSS, Javascript, PHP, FTP. Your web host needs to support PHP and you need to be comfortable making at least              rudimentary changes, if needed, with these technologies.
