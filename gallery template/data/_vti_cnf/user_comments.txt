@@ -1,0 +1,12 @@
+vti_encoding:SR|utf8-nl
+vti_timelastmodified:TW|23 Jan 2022 01:39:40 -0000
+vti_extenderversion:SR|12.0.0.0
+vti_backlinkinfo:VX|
+vti_syncofs_ftp.staadecker.com\:7822:TW|23 Jan 2022 00:03:19 -0000
+vti_syncwith_ftp.staadecker.com\:7822:TX|22 Jan 2022 23:57:18 -0000
+vti_author:SR|DESKTOP-U42UCPB\\rpsco
+vti_modifiedby:SR|DESKTOP-U42UCPB\\rpsco
+vti_nexttolasttimemodified:TW|23 Jan 2022 01:39:40 -0000
+vti_timecreated:TR|23 Jan 2022 01:46:29 -0000
+vti_cacheddtm:TX|23 Jan 2022 01:46:29 -0000
+vti_filesize:IR|211
