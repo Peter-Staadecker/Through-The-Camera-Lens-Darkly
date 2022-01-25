@@ -1,4 +1,4 @@
-# Through-The-Camera-Lens-Darkly
+# Through-The-Lens-Darkly
 A Javascript Photo Gallery
 
 This Javascript photo gallery can disply your photos/sketches/paintings to viewers world-wide on the web. You will need your own photos (am I being obvious?) and your own web hosting arrangements (not supplied). The code underlying the gallery includes HTML, Javascript, CSS and two teaspoons of .php.
