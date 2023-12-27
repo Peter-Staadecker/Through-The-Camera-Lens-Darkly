@@ -24,7 +24,7 @@ Cons:
   * I do provide a user manual, but do not provide support.
 
 User Manual:
-  * Provided in a separate document: https://github.com/Peter-Staadecker/Through-The-Lens-Darkly/blob/main/user%20manual%20and%20set%20up.pdf
+  * Provided in a [separate document](https://github.com/Peter-Staadecker/Through-The-Lens-Darkly/blob/main/user%20manual%20and%20set%20up.pdf)
 
   Demo
    * I have used this gallery for several years (with some evolution over time) for displaying my own photos. You can see the functionality of the gallery at                        https://gallery.staadecker.com 
